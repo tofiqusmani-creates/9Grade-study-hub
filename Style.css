@@ -1,0 +1,310 @@
+body {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    background: white;
+    color: #007bff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 18px;
+}#subjects {
+    margin-top: 40px;
+}
+
+#subjects h2 {
+    margin-bottom: 20px;
+}
+
+#subjects button {
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    margin: 10px auto;
+    background: white;
+    color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 15px;
+}
+
+#subjects button:hover {
+    background: #007bff;
+    color: white;
+}#maths-content {
+    margin-top: 30px;
+    padding: 20px;
+    background: white;
+    color: #333;
+    border-radius: 20px;
+}#maths-content {
+    display: none;
+}#maths-content {
+    display: none;
+    margin-top: 30px;
+    padding: 20px;
+    background: white;
+    color: #333;
+    border-radius: 20px;
+}#coordinates-content,
+#polynomials-content {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    background: white;
+    color: #333;
+    border-radius: 15px;
+}#science-content {
+    display: none;
+    margin-top: 30px;
+    padding: 20px;
+    background: white;
+    color: #333;
+    border-radius: 20px;
+}#tissues-content {
+    display: none;
+    margin-top: 30px;
+    padding: 20px;
+    background: white;
+    color: #333;
+    border-radius: 20px;
+}#cell-content {
+    display: none;
+    margin-top: 30px;
+    padding: 20px;
+    background: white;
+    color: #333;
+    border-radius: 20px;
+    text-align: left;
+}
+
+#cell-content h2 {
+    text-align: center;
+}
+
+#cell-content h3 {
+    margin-top: 20px;
+}#motion-content {
+    display: none;
+    margin-top: 30px;
+    padding: 20px;
+    background: white;
+    color: #333;
+    border-radius: 20px;
+    text-align: left;
+}
+
+#motion-content h2 {
+    text-align: center;
+}
+
+#motion-content h3 {
+    margin-top: 20px;
+}#motion-content {
+    display: none;
+    margin-top: 30px;
+    padding: 20px;
+    background: white;
+    color: #333;
+    border-radius: 20px;
+    text-align: left;
+}/* SST Main Section */
+#sst-content {
+    display: none;
+    margin-top: 30px;
+    padding: 20px;
+    background: white;
+    color: #333;
+    border-radius: 20px;
+    text-align: left;
+}
+
+/* SST Subjects */
+#sst-content button {
+    margin: 10px;
+}
+
+/* Individual SST Subjects */
+#geography-content,
+#history-content,
+#civics-content,
+#economics-content {
+    display: none;
+    margin-top: 30px;
+    padding: 20px;
+    background: white;
+    color: #333;
+    border-radius: 20px;
+    text-align: left;
+}
+
+#geography-content h2,
+#history-content h2,
+#civics-content h2,
+#economics-content h2 {
+    text-align: center;
+}
+
+#geography-content h3,
+#history-content h3,
+#civics-content h3,
+#economics-content h3 {
+    margin-top: 20px;
+}
+}#geography-content {
+    display: none;
+    margin-top: 30px;
+    padding: 20px;
+    background: white;
+    color: #333;
+    border-radius: 20px;
+    text-align: left;
+}
+
+#geography-content h2 {
+    text-align: center;
+}
+
+#geography-content h3 {
+    margin-top: 20px;
+}#history-content {
+    display: none;
+    margin-top: 30px;
+    padding: 20px;
+    background: white;
+    color: #333;
+    border-radius: 20px;
+    text-align: left;
+}
+
+#history-content h2 {
+    text-align: center;
+}
+
+#history-content h3 {
+    margin-top: 20px;
+}#civics-content {
+    display: none;
+    margin-top: 30px;
+    padding: 20px;
+    background: white;
+    color: #333;
+    border-radius: 20px;
+    text-align: left;
+}
+
+#civics-content h2 {
+    text-align: center;
+}
+
+#civics-content h3 {
+    margin-top: 20px;
+}#economics-content {
+    display: none;
+    margin-top: 30px;
+    padding: 20px;
+    background: white;
+    color: #333;
+    border-radius: 20px;
+    text-align: left;
+}
+
+#economics-content h2 {
+    text-align: center;
+}
+
+#economics-content h3 {
+    margin-top: 20px;
+}<script>
+function showEnglish() {
+    document.getElementById("english-content").style.display = "block";
+}
+</script>#grammar-content {
+    display: none;
+    margin-top: 30px;
+    padding: 20px;
+    background: white;
+    color: #333;
+    border-radius: 20px;
+    text-align: left;
+}
+
+#grammar-content h2 {
+    text-align: center;
+}
+
+#grammar-content h3 {
+    margin-top: 20px;
+    #literature-content,
+#winds-content,
+#canvas-content {
+    display: none;
+    margin-top: 30px;
+    padding: 20px;
+    background: white;
+    color: #333;
+    border-radius: 20px;
+    text-align: left;
+}
+
+#literature-content h2,
+#winds-content h2,
+#canvas-content h2 {
+    text-align: center;
+}
+
+#winds-content h3,
+#canvas-content h3 {
+    margin-top: 20px;
+}#hindi-content,
+#gadyansh-content,
+#hindi-grammar-content {
+    display: none;
+    margin-top: 30px;
+    padding: 20px;
+    background: white;
+    color: #333;
+    border-radius: 20px;
+    text-align: left;
+}
+
+#hindi-content h2,
+#gadyansh-content h2,
+#hindi-grammar-content h2 {
+    text-align: center;
+}
+
+#gadyansh-content h3,
+#hindi-grammar-content h3 {
+    margin-top: 20px;
+}#it-content,
+#communication-content {
+    display: none;
+    margin-top: 30px;
+    padding: 20px;
+    background: white;
+    color: #333;
+    border-radius: 20px;
+    text-align: left;
+}
+
+#it-content h2,
+#communication-content h2 {
+    text-align: center;
+}
+
+#communication-content h3 {
+    margin-top: 20px;
+}

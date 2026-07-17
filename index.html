@@ -1,0 +1,1482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>9Grade Study Hub</title>
+</head><div class="top-bar">
+
+    <h1>📚 9Grade Study Hub</h1>
+
+    <button onclick="goHome()">🏠 Home</button>
+
+</div>
+
+<body>
+
+    <h1>📚 9Grade Study Hub</h1>
+
+    <p>Your Smart Study Partner for Class 9 🚀</p>
+
+    <button onclick="showSubjects()">Start Learning</button><div id="subjects">
+    <h2>📚 Choose Your Subject</h2>
+
+    <<button onclick="showMaths()">📐 Maths</button><div id="maths-content">
+    <h2>📐 Class 9 Maths</h2>
+
+    <p>Choose a chapter to start learning:</p>
+
+    <button onclick="showCoordinates()">📍 Coordinates</button>
+    <button onclick="showPolynomials()">📊 Linear Polynomials</button><div id="coordinates-content">
+    <h2>📍 Coordinates</h2>
+
+<h3>📚 What are Coordinates?</h3>
+<p>
+Coordinates are used to locate a point on a plane.
+A point is represented by an ordered pair (x, y).
+</p>
+
+<h3>📌 Important Concepts</h3>
+
+<ul>
+    <li>📏 X-axis: Horizontal line</li>
+    <li>📐 Y-axis: Vertical line</li>
+    <li>🎯 Origin: Point (0, 0)</li>
+    <li>📍 Coordinates are written as (x, y)</li>
+</ul>
+
+<h3>🧠 Example</h3>
+
+<p>
+The point (3, 2) means:
+<br>
+Move 3 units on the X-axis and 2 units on the Y-axis.
+</p>
+
+<h3>📝 Quick Practice</h3><h2>📍 Coordinates</h2>
+
+<h3>📚 What are Coordinates?</h3>
+<p>
+Coordinates are used to locate a point on a plane.
+A point is represented by an ordered pair (x, y).
+</p>
+
+<h3>📌 Important Concepts</h3>
+
+<ul>
+    <li>📏 X-axis: Horizontal line</li>
+    <li>📐 Y-axis: Vertical line</li>
+    <li>🎯 Origin: Point (0, 0)</li>
+    <li>📍 Coordinates are written as (x, y)</li>
+</ul>
+
+<h3>🧠 Example</h3>
+
+<p>
+The point (3, 2) means:
+<br>
+Move 3 units on the X-axis and 2 units on the Y-axis.
+</p>
+
+<h3>📝 Quick Practice</h3>
+
+<p>What are the coordinates of the origin?</p>
+
+<button onclick="alert('Correct Answer: (0, 0) 🎉')">
+    Show Answer
+</button>
+
+<p>What are the coordinates of the origin?</p>
+
+<button onclick="alert('Correct Answer: (0, 0) 🎉')">
+    Show Answer
+</button>
+</div>
+
+<div id="polynomials-content">
+    <h2>📊 Linear Polynomials</h2>
+    <h3>📚 What is a Linear Polynomial?</h3>
+
+<p>
+A linear polynomial is a polynomial whose degree is 1.
+</p>
+
+<h3>📌 General Form</h3>
+
+<p>
+<strong>p(x) = ax + b</strong>
+</p>
+
+<p>
+Here, a and b are constants and a ≠ 0.
+</p>
+
+<h3>🧠 Examples</h3>
+
+<ul>
+    <li>2x + 3</li>
+    <li>5x - 7</li>
+    <li>x + 10</li>
+</ul>
+
+<h3>📝 Quick Practice</h3><h3>🧠 Mini Quiz</h3>
+
+<p>What is the degree of the polynomial 2x + 5?</p>
+
+<button onclick="checkPolynomialAnswer('1')">1</button>
+<button onclick="checkPolynomialAnswer('2')">2</button>
+<button onclick="checkPolynomialAnswer('3')">3</button>
+
+<p id="polynomial-result"></p>
+
+<script>
+    function checkPolynomialAnswer(answer) {
+        if (answer === "1") {
+            document.getElementById("polynomial-result").innerHTML =
+                "🎉 Correct! The degree is 1.";
+        } else {
+            document.getElementById("polynomial-result").innerHTML =
+                "❌ Try again!";
+        }
+    }
+</script>
+
+<p>What is the degree of a linear polynomial?</p>
+
+<button onclick="alert('Correct Answer: Degree 1 🎉')">
+    Show Answer
+</button>
+</div>
+
+<script>
+    function showCoordinates() {
+        document.getElementById("coordinates-content").style.display = "block";
+    }
+
+    function showPolynomials() {
+        document.getElementById("polynomials-content").style.display = "block";
+    }
+</script>
+</div>
+
+<script>
+    function showMaths() {
+        document.getElementById("maths-content").style.display = "block";
+    }
+</script>
+    <button onclick="showScience()">🔬 Science</button><div id="science-content">
+
+    <h2>🔬 Class 9 Science</h2>
+
+    <p>Choose a chapter to start learning:</p>
+
+    <button onclick="showCell()">🧬 The Fundamental Unit of Life</button><div id="cell-content">
+
+    <h2>🧫 The Fundamental Unit of Life</h2>
+
+    <h3>📚 What is a Cell?</h3>
+    <p>
+        The cell is the basic structural and functional unit of life.
+        All living organisms are made up of cells.
+    </p>
+
+    <h3>🔬 Discovery of the Cell</h3>
+    <p>
+        Robert Hooke observed cells in a thin slice of cork in 1665.
+        He used the term "cell" because the structures looked like
+        small rooms.
+    </p>
+
+    <h3>🧱 Plasma Membrane</h3>
+    <p>
+        The plasma membrane is the outer covering of the cell.
+        It protects the cell and controls the movement of substances
+        into and out of the cell.
+    </p>
+
+    <h3>💧 Osmosis</h3>
+    <p>
+        Osmosis is the movement of water through a selectively
+        permeable membrane from a region of higher water concentration
+        to a region of lower water concentration.
+    </p>
+
+    <h3>🧬 Nucleus</h3>
+    <p>
+        The nucleus controls the activities of the cell.
+        It contains genetic material and is surrounded by a nuclear membrane.
+    </p>
+
+    <h3>⚡ Mitochondria</h3>
+    <p>
+        Mitochondria are known as the powerhouse of the cell.
+        They produce energy for various activities of the cell.
+    </p>
+
+    <h3>🌿 Plastids</h3>
+    <p>
+        Plastids are found mainly in plant cells.
+        Chloroplasts contain chlorophyll and help plants perform photosynthesis.
+    </p>
+
+    <h3>📦 Endoplasmic Reticulum</h3>
+    <p>
+        The endoplasmic reticulum helps in the transport of materials
+        within the cell.
+    </p>
+
+    <h3>📬 Golgi Apparatus</h3>
+    <p>
+        The Golgi apparatus helps in the modification, storage and
+        packaging of materials inside the cell.
+    </p>
+
+    <h3>🧹 Lysosomes</h3>
+    <p>
+        Lysosomes contain digestive enzymes and help break down
+        unwanted materials and waste inside the cell.
+    </p>
+
+    <h3>💧 Vacuoles</h3>
+    <p>
+        Vacuoles store water, food and other substances.
+        They are generally larger in plant cells.
+    </p>
+
+    <h3>🌱 Plant Cell vs Animal Cell</h3>
+
+    <p>
+        Plant cells generally have a cell wall, plastids and a large vacuole.
+        Animal cells do not have a cell wall or plastids and usually have
+        smaller vacuoles.
+    </p>
+
+    <h3>🧠 Quick Practice</h3>
+
+    <p>Which organelle is known as the powerhouse of the cell?</p>
+
+    <button onclick="alert('Correct Answer: Mitochondria 🎉')">
+        Show Answer
+    </button>
+
+</div>
+
+<script>
+    function showCell() {
+        document.getElementById("cell-content").style.display = "block";
+    }
+</script>
+    <button onclick="showTissues()">🌱 Tissues</button><div id="tissues-content"><h2>🌱 Tissues</h2>
+
+<h3>📚 What is a Tissue?</h3>
+<p>
+A tissue is a group of similar cells that work together to perform
+a specific function. In multicellular organisms, different tissues
+perform different functions.
+</p>
+
+<h3>🌿 Plant Tissues</h3>
+<p>
+Plant tissues are mainly divided into two types:
+<strong>Meristematic tissues</strong> and <strong>Permanent tissues</strong>.
+</p>
+
+<h3>🌱 1. Meristematic Tissue</h3>
+<p>
+Meristematic tissues contain actively dividing cells. They help in
+the growth of plants.
+</p>
+
+<h3>⬆️ Apical Meristem</h3>
+<p>
+It is present at the tips of roots and shoots. It increases the
+length of the plant.
+</p>
+
+<h3>↔️ Lateral Meristem</h3>
+<p>
+It is present on the sides of stems and roots. It increases the
+thickness or girth of the plant.
+</p>
+
+<h3>🌿 Intercalary Meristem</h3>
+<p>
+It is found near the nodes or at the base of leaves. It helps in
+the growth of certain parts of the plant.
+</p>
+
+<h3>🌳 2. Permanent Tissue</h3>
+<p>
+Permanent tissues are formed from meristematic cells. These cells
+lose their ability to divide and become specialised to perform
+specific functions.
+</p>
+
+<h3>🟢 Simple Permanent Tissue</h3>
+
+<h3>🌿 Parenchyma</h3>
+<p>
+Parenchyma cells are generally living and have thin cell walls.
+They help in storage of food. When they contain chlorophyll,
+they are called chlorenchyma and help in photosynthesis.
+</p>
+
+<h3>🟡 Collenchyma</h3>
+<p>
+Collenchyma provides flexibility and mechanical support to plants.
+It allows plant parts such as stems and leaves to bend without
+breaking.
+</p>
+
+<h3>🟤 Sclerenchyma</h3>
+<p>
+Sclerenchyma cells are usually dead at maturity and have thick,
+strong cell walls. They provide strength and support to the plant.
+</p>
+
+<h3>🚰 Complex Permanent Tissue</h3>
+<p>
+Complex tissues are made up of more than one type of cell.
+The main complex tissues are xylem and phloem.
+</p>
+
+<h3>💧 Xylem</h3>
+<p>
+Xylem transports water and minerals from the roots to other parts
+of the plant. It also provides mechanical support.
+</p>
+
+<h3>🌿 Phloem</h3>
+<p>
+Phloem transports food prepared by the leaves to different parts
+of the plant.
+</p>
+
+<h3>🐾 Animal Tissues</h3>
+<p>
+Animal tissues are mainly divided into epithelial, connective,
+muscular and nervous tissues.
+</p>
+
+<h3>🧱 Epithelial Tissue</h3>
+<p>
+Epithelial tissue forms the protective covering of the body.
+It also lines organs and body cavities.
+</p>
+
+<h3>🔗 Connective Tissue</h3>
+<p>
+Connective tissue connects, supports and binds different parts
+of the body. Examples include blood, bone, cartilage, tendons
+and ligaments.
+</p>
+
+<h3>💪 Muscular Tissue</h3>
+<p>
+Muscular tissue helps in movement of body parts. It contains
+specialised cells that can contract and relax.
+</p>
+
+<h3>🧠 Nervous Tissue</h3>
+<p>
+Nervous tissue is made up of specialised cells called neurons.
+It helps in receiving and transmitting messages in the body.
+</p>
+
+<h3>📝 Quick Practice</h3>
+
+<p>
+Which tissue transports water and minerals from the roots to
+the other parts of a plant?
+</p>
+
+<button onclick="alert('Correct Answer: Xylem 🎉')">
+    Show Answer
+</button>
+
+    <h2>🌱 Tissues</h2>
+
+    <h3>📚 What is a Tissue?</h3>
+
+    <p>
+        A tissue is a group of similar cells that work together
+        to perform a specific function.
+    </p>
+
+    <h3>🌿 Main Types of Plant Tissues</h3>
+
+    <ul>
+        <li>🌱 Meristematic Tissue</li>
+        <li>🌳 Permanent Tissue</li>
+    </ul>
+
+    <h3>🧠 Quick Practice</h3>
+
+    <p>What is a tissue?</p>
+
+    <button onclick="alert('A group of similar cells performing a specific function 🎉')">
+        Show Answer
+    </button>
+
+</div>
+
+<script>
+    function showTissues() {
+        document.getElementById("tissues-content").style.display = "block";
+    }
+</script>
+    <button onclick="showMotion()">🏃 Motion</button><div id="motion-content">
+
+    <h2>🏃 Motion</h2>
+
+    <h3>📚 What is Motion?</h3>
+    <p>
+        An object is said to be in motion if its position changes
+        with time with respect to a reference point.
+    </p>
+
+    <h3>📍 Reference Point</h3>
+    <p>
+        To describe the motion of an object, we compare its position
+        with a fixed point called a reference point.
+    </p>
+
+    <h3>📏 Distance</h3>
+    <p>
+        Distance is the total length of the actual path travelled by
+        an object. It is a scalar quantity and has only magnitude.
+    </p>
+
+    <h3>➡️ Displacement</h3>
+    <p>
+        Displacement is the shortest distance between the initial
+        and final positions of an object in a particular direction.
+        It is a vector quantity.
+    </p>
+
+    <h3>⚡ Speed</h3>
+    <p>
+        Speed is the distance travelled by an object per unit time.
+    </p>
+
+    <p><strong>Formula: Speed = Distance / Time</strong></p>
+
+    <h3>🚗 Uniform Motion</h3>
+    <p>
+        An object is said to be in uniform motion if it covers equal
+        distances in equal intervals of time.
+    </p>
+
+    <h3>🔄 Non-uniform Motion</h3>
+    <p>
+        An object is in non-uniform motion if it covers unequal
+        distances in equal intervals of time.
+    </p>
+
+    <h3>🏎️ Velocity</h3>
+    <p>
+        Velocity is the speed of an object in a particular direction.
+        It is a vector quantity.
+    </p>
+
+    <p><strong>Formula: Velocity = Displacement / Time</strong></p>
+
+    <h3>📈 Acceleration</h3>
+    <p>
+        Acceleration is the rate of change of velocity with time.
+    </p>
+
+    <p><strong>Formula: Acceleration = Change in Velocity / Time</strong></p>
+
+    <h3>📊 Graphs of Motion</h3>
+    <p>
+        Motion can be represented using distance-time and
+        velocity-time graphs. These graphs help us understand
+        how an object moves with time.
+    </p>
+
+    <h3>🧠 Example</h3>
+    <p>
+        If a car travels 100 metres in 20 seconds:
+        <br><br>
+        Speed = Distance / Time
+        <br>
+        Speed = 100 / 20 = 5 m/s
+    </p>
+
+    <h3>📝 Quick Practice</h3>
+
+    <p>
+        A car travels 60 metres in 10 seconds.
+        What is its speed?
+    </p>
+
+    <button onclick="alert('Correct Answer: 6 m/s 🎉')">
+        Show Answer
+    </button>
+
+    <h3>🧠 Motion Quiz</h3>
+
+    <p>Which quantity has both magnitude and direction?</p>
+
+    <button onclick="checkMotionAnswer('speed')">Speed</button>
+    <button onclick="checkMotionAnswer('velocity')">Velocity</button>
+    <button onclick="checkMotionAnswer('distance')">Distance</button>
+
+    <p id="motion-result"></p>
+
+</div>
+
+<script>
+    function showMotion() {
+        document.getElementById("motion-content").style.display = "block";
+    }
+
+    function checkMotionAnswer(answer) {
+        if (answer === "velocity") {
+            document.getElementById("motion-result").innerHTML =
+                "🎉 Correct! Velocity has magnitude and direction.";
+        } else {
+            document.getElementById("motion-result").innerHTML =
+                "❌ Try again!";
+        }
+    }
+</script><h3>📐 Average Speed</h3>
+<p>
+Average speed is the total distance travelled divided by the total
+time taken. It is useful when an object moves with different speeds
+during its journey.
+</p>
+
+<p>
+<strong>Average Speed = Total Distance / Total Time</strong>
+</p>
+
+<h3>🔁 Average Velocity</h3>
+<p>
+Average velocity is the total displacement divided by the total time
+taken. It depends on the initial and final positions of the object.
+</p>
+
+<p>
+<strong>Average Velocity = Total Displacement / Total Time</strong>
+</p>
+
+<h3>📊 Distance-Time Graph</h3>
+<p>
+A distance-time graph shows the distance travelled by an object
+with time. The slope of a distance-time graph represents the speed
+of the object.
+</p>
+
+<h3>📈 Velocity-Time Graph</h3>
+<p>
+A velocity-time graph shows how the velocity of an object changes
+with time. The slope of this graph represents acceleration.
+</p>
+
+<h3>🛑 Rest and Motion</h3>
+<p>
+An object can be at rest with respect to one object and in motion
+with respect to another object. Therefore, rest and motion are
+relative concepts.
+</p>
+
+<h3>🔄 Circular Motion</h3>
+<p>
+When an object moves along a circular path, its motion is called
+circular motion. Even if the speed remains constant, its velocity
+changes because the direction of motion continuously changes.
+</p><h3>🧠 Question 2</h3>
+
+<p>
+A car travels 120 metres in 20 seconds. What is its speed?
+</p>
+
+<button onclick="alert('Correct Answer: 6 m/s 🎉')">
+    Show Answer
+</button>
+
+
+<h3>🧠 Question 3</h3>
+
+<p>
+Which quantity has only magnitude and no direction?
+</p>
+
+<button onclick="alert('Correct Answer: Speed 🎉')">
+    Show Answer
+</button>
+
+
+<h3>🧠 Question 4</h3>
+
+<p>
+What is the SI unit of acceleration?
+</p>
+
+<button onclick="alert('Correct Answer: m/s² 🎉')">
+    Show Answer
+</button>
+
+
+<h3>🧠 Question 5</h3>
+
+<p>
+An object travels in a circular path with constant speed.
+Is its velocity constant?
+</p>
+
+<button onclick="alert('Correct Answer: No. Its direction continuously changes, so velocity changes. 🎉')">
+    Show Answer
+</button>
+
+</div>
+
+<script>
+    function showScience() {
+        document.getElementById("science-content").style.display = "block";
+    }
+</script>
+    <button onclick="showSST()">🌍 SST</button>
+
+<div id="sst-content">
+
+    <h2>🌍 Social Science</h2>
+
+    <p>Choose a subject to study:</p>
+
+  
+
+</div>
+
+<button onclick="showGeography()">🌍 Geography</button><div id="geography-content">
+
+    <h2>🌍 Geography</h2>
+
+    <h3>📚 Question 1: What is India’s geographical location?</h3>
+    <p>
+        India lies completely in the Northern Hemisphere. The mainland
+        extends between 8°4'N and 37°6'N latitudes and 68°7'E and
+        97°25'E longitudes.
+    </p>
+
+    <h3>📚 Question 2: What is the Standard Meridian of India?</h3>
+    <p>
+        The Standard Meridian of India is 82°30'E longitude. It passes
+        near Mirzapur in Uttar Pradesh and is used to determine Indian
+        Standard Time.
+    </p>
+
+    <h3>📚 Question 3: What is the importance of the Himalayas?</h3>
+    <p>
+        The Himalayas form India's northern boundary. They protect
+        India from extremely cold winds and are the source of many
+        important rivers.
+    </p>
+
+    <h3>📚 Question 4: Name the major physical divisions of India.</h3>
+    <p>
+        The major physical divisions are the Himalayan Mountains,
+        Northern Plains, Peninsular Plateau, Indian Desert, Coastal
+        Plains and Islands.
+    </p>
+
+    <h3>📚 Question 5: What are the Northern Plains?</h3>
+    <p>
+        The Northern Plains are formed by the deposition of alluvial
+        soil brought by the Indus, Ganga and Brahmaputra river systems.
+        They are very fertile and densely populated.
+    </p>
+
+    <h3>📚 Question 6: What is the Peninsular Plateau?</h3>
+    <p>
+        The Peninsular Plateau is an ancient landmass made up mainly
+        of crystalline, igneous and metamorphic rocks. It is rich in
+        minerals.
+    </p>
+
+    <h3>📚 Question 7: What is the Indian Desert?</h3>
+    <p>
+        The Indian Desert, also called the Thar Desert, lies mainly
+        in Rajasthan. It receives very little rainfall and has sandy
+        plains and sand dunes.
+    </p>
+
+    <h3>📚 Question 8: What are the Coastal Plains?</h3>
+    <p>
+        The Coastal Plains lie along the eastern and western coasts
+        of India. The Western Coastal Plain is generally narrower,
+        while the Eastern Coastal Plain is broader.
+    </p>
+
+    <h3>📚 Question 9: What are the Indian Islands?</h3>
+    <p>
+        India has two major island groups: the Andaman and Nicobar
+        Islands in the Bay of Bengal and the Lakshadweep Islands in
+        the Arabian Sea.
+    </p>
+
+    <h3>📚 Question 10: Why is India’s location important?</h3>
+    <p>
+        India has an important location in the Indian Ocean. Its
+        central position helps it maintain trade and cultural links
+        with countries of Asia, Africa and Europe.
+    </p>
+
+    <h2>📝 Mini Test – Geography</h2>
+
+    <p><strong>1. What is the Standard Meridian of India?</strong></p>
+    <button onclick="alert('Answer: 82°30\\'E longitude')">
+        Show Answer
+    </button>
+
+    <p><strong>2. Which soil makes the Northern Plains very fertile?</strong></p>
+    <button onclick="alert('Answer: Alluvial soil')">
+        Show Answer
+    </button>
+
+    <p><strong>3. Name the two major island groups of India.</strong></p>
+    <button onclick="alert('Answer: Andaman and Nicobar Islands and Lakshadweep Islands')">
+        Show Answer
+    </button>
+
+    <p><strong>4. Which is the oldest landmass of India?</strong></p>
+    <button onclick="alert('Answer: The Peninsular Plateau')">
+        Show Answer
+    </button>
+
+</div>
+
+<script>
+    function showGeography() {
+        document.getElementById("geography-content").style.display = "block";
+    }
+        </script>
+        <button onclick="showHistory()">🏛️ History</button>
+<div id="history-content">
+
+    <h2>🏛️ History</h2>
+
+    <h3>📚 Question 1: What was the French Revolution?</h3>
+    <p>
+        The French Revolution began in 1789. It ended the absolute
+        monarchy and brought important ideas such as liberty, equality
+        and fraternity.
+    </p>
+
+    <h3>📚 Question 2: What was French society divided into?</h3>
+    <p>
+        French society was divided into three Estates. The First Estate
+        consisted of the clergy, the Second Estate consisted of the
+        nobility, and the Third Estate included the common people.
+    </p>
+
+    <h3>📚 Question 3: What was the Bastille?</h3>
+    <p>
+        The Bastille was a fortress-prison in Paris. Its storming on
+        14 July 1789 became an important symbol of the French Revolution.
+    </p>
+
+    <h3>📚 Question 4: What was the Russian Revolution?</h3>
+    <p>
+        The Russian Revolution of 1917 led to the end of Tsarist rule
+        and eventually brought the Bolsheviks to power.
+    </p>
+
+    <h3>📚 Question 5: Who were the Bolsheviks?</h3>
+    <p>
+        The Bolsheviks were a socialist group led by Vladimir Lenin.
+        They played a major role in the October Revolution of 1917.
+    </p>
+
+    <h3>📚 Question 6: What was Nazism?</h3>
+    <p>
+        Nazism was the ideology followed by Adolf Hitler and the Nazi
+        Party in Germany. It promoted dictatorship and extreme
+        nationalism.
+    </p>
+
+    <h3>📚 Question 7: What was the Treaty of Versailles?</h3>
+    <p>
+        The Treaty of Versailles was signed after the First World War.
+        It placed strict conditions and penalties on Germany.
+    </p>
+
+    <h3>📚 Question 8: What was the Industrial Revolution?</h3>
+    <p>
+        The Industrial Revolution brought major changes in production,
+        technology and transportation. Machines and factories became
+        increasingly important.
+    </p>
+
+    <h3>📚 Question 9: What is colonialism?</h3>
+    <p>
+        Colonialism is a system in which one powerful country controls
+        another country or territory for political and economic benefit.
+    </p>
+
+    <h3>📚 Question 10: Why is history important?</h3>
+    <p>
+        History helps us understand past events, societies, cultures
+        and the causes of changes in the world.
+    </p>
+
+    <h3>📚 Question 11: What is democracy?</h3>
+    <p>
+        Democracy is a system of government in which people choose
+        their representatives through elections.
+    </p>
+
+    <h3>📚 Question 12: What is nationalism?</h3>
+    <p>
+        Nationalism is a feeling of unity and loyalty towards one's
+        nation and its people.
+    </p>
+
+    <h2>📝 Mini Test – History</h2>
+
+    <p><strong>1. In which year did the French Revolution begin?</strong></p>
+    <button onclick="alert('Answer: 1789')">
+        Show Answer
+    </button>
+
+    <p><strong>2. Who led the Bolsheviks?</strong></p>
+    <button onclick="alert('Answer: Vladimir Lenin')">
+        Show Answer
+    </button>
+
+    <p><strong>3. What was the Bastille?</strong></p>
+    <button onclick="alert('Answer: A fortress-prison in Paris')">
+        Show Answer
+    </button>
+
+    <p><strong>4. What is nationalism?</strong></p>
+    <button onclick="alert('Answer: A feeling of unity and loyalty towards one’s nation')">
+        Show Answer
+    </button>
+
+</div>
+
+<script>
+    function showHistory() {
+        document.getElementById("history-content").style.display = "block";
+    }
+</script>
+<button onclick="showCivics()">⚖️ Civics</button><div id="civics-content">
+
+    <h2>⚖️ Civics</h2>
+
+    <h3>📚 Question 1: What is Democracy?</h3>
+    <p>
+        Democracy is a form of government in which the rulers are
+        elected by the people.
+    </p>
+
+    <h3>📚 Question 2: What are the main features of Democracy?</h3>
+    <p>
+        The main features include elected representatives, free and
+        fair elections, universal adult franchise and respect for
+        the rights of citizens.
+    </p>
+
+    <h3>📚 Question 3: What is the Constitution?</h3>
+    <p>
+        A Constitution is a set of fundamental rules and principles
+        according to which a country is governed.
+    </p>
+
+    <h3>📚 Question 4: Why do we need a Constitution?</h3>
+    <p>
+        A Constitution defines the powers of the government, protects
+        citizens' rights and provides a framework for governing the country.
+    </p>
+
+    <h3>📚 Question 5: What are Fundamental Rights?</h3>
+    <p>
+        Fundamental Rights are basic rights guaranteed to citizens by
+        the Constitution. They protect individual freedom and equality.
+    </p>
+
+    <h3>📚 Question 6: What is the role of elections?</h3>
+    <p>
+        Elections allow citizens to choose their representatives and
+        hold the government accountable.
+    </p>
+
+    <h3>📚 Question 7: What is universal adult franchise?</h3>
+    <p>
+        Universal adult franchise means that every adult citizen has
+        the right to vote, subject to the legal voting age.
+    </p>
+
+    <h3>📚 Question 8: What is the Parliament?</h3>
+    <p>
+        The Parliament is the highest law-making body of the country.
+        In India, it consists of the President, Lok Sabha and Rajya Sabha.
+    </p>
+
+    <h3>📚 Question 9: What is the importance of equality?</h3>
+    <p>
+        Equality ensures that all citizens are treated equally before
+        the law and have equal opportunities.
+    </p>
+
+    <h3>📚 Question 10: What is the rule of law?</h3>
+    <p>
+        Rule of law means that everyone, including government officials,
+        is subject to the law.
+    </p>
+
+    <h3>📚 Question 11: What is secularism?</h3>
+    <p>
+        Secularism means that the state treats all religions equally
+        and does not establish an official religion.
+    </p>
+
+    <h3>📚 Question 12: Why are citizens important in a democracy?</h3>
+    <p>
+        Citizens participate in democracy by voting, following laws,
+        expressing opinions and holding elected representatives accountable.
+    </p>
+
+    <h2>📝 Mini Test – Civics</h2>
+
+    <p><strong>1. What is democracy?</strong></p>
+    <button onclick="alert('Answer: Government by elected representatives chosen by the people.')">
+        Show Answer
+    </button>
+
+    <p><strong>2. What is the Constitution?</strong></p>
+    <button onclick="alert('Answer: A set of fundamental rules and principles for governing a country.')">
+        Show Answer
+    </button>
+
+    <p><strong>3. What is universal adult franchise?</strong></p>
+    <button onclick="alert('Answer: The right of adult citizens to vote.')">
+        Show Answer
+    </button>
+
+    <p><strong>4. What is the rule of law?</strong></p>
+    <button onclick="alert('Answer: Everyone is subject to the law.')">
+        Show Answer
+    </button>
+
+</div>
+
+<script>
+    function showCivics() {
+        document.getElementById("civics-content").style.display = "block";
+    }
+</script>
+<button onclick="showEconomics()">💰 Economics</button><div id="economics-content">
+
+    <h2>💰 Economics</h2>
+
+    <h3>📚 Question 1: What is Economics?</h3>
+    <p>
+        Economics is the study of how people use limited resources
+        to satisfy their unlimited wants and needs.
+    </p>
+
+    <h3>📚 Question 2: What is poverty?</h3>
+    <p>
+        Poverty is a condition in which a person is unable to meet
+        basic necessities of life such as food, clothing, shelter,
+        education and healthcare.
+    </p>
+
+    <h3>📚 Question 3: What is the poverty line?</h3>
+    <p>
+        The poverty line is a minimum level of income or consumption
+        necessary to meet basic needs.
+    </p>
+
+    <h3>📚 Question 4: What are the main causes of poverty?</h3>
+    <p>
+        Unemployment, low income, lack of education, unequal
+        distribution of resources and limited opportunities are some
+        important causes of poverty.
+    </p>
+
+    <h3>📚 Question 5: What is unemployment?</h3>
+    <p>
+        Unemployment is a situation in which people who are willing
+        and able to work cannot find suitable employment.
+    </p>
+
+    <h3>📚 Question 6: What is human capital?</h3>
+    <p>
+        Human capital refers to the knowledge, skills, education and
+        health that make people productive.
+    </p>
+
+    <h3>📚 Question 7: Why is education important?</h3>
+    <p>
+        Education improves knowledge and skills, increases productivity
+        and provides better employment opportunities.
+    </p>
+
+    <h3>📚 Question 8: What is the primary sector?</h3>
+    <p>
+        The primary sector includes activities that directly use
+        natural resources, such as agriculture, fishing and forestry.
+    </p>
+
+    <h3>📚 Question 9: What is the secondary sector?</h3>
+    <p>
+        The secondary sector involves manufacturing and processing
+        raw materials into finished goods.
+    </p>
+
+    <h3>📚 Question 10: What is the tertiary sector?</h3>
+    <p>
+        The tertiary sector provides services such as transport,
+        banking, education, healthcare and communication.
+    </p>
+
+    <h3>📚 Question 11: What is sustainable development?</h3>
+    <p>
+        Sustainable development means meeting the needs of the present
+        without harming the ability of future generations to meet their
+        own needs.
+    </p>
+
+    <h3>📚 Question 12: What is the importance of employment?</h3>
+    <p>
+        Employment provides income, improves living standards and
+        helps people contribute to the development of the economy.
+    </p>
+
+    <h2>📝 Mini Test – Economics</h2>
+
+    <p><strong>1. What is poverty?</strong></p>
+    <button onclick="alert('Answer: A condition in which basic necessities of life cannot be properly met.')">
+        Show Answer
+    </button>
+
+    <p><strong>2. What is the primary sector?</strong></p>
+    <button onclick="alert('Answer: The sector that directly uses natural resources, such as agriculture.')">
+        Show Answer
+    </button>
+
+    <p><strong>3. What is human capital?</strong></p>
+    <button onclick="alert('Answer: Knowledge, skills, education and health that make people productive.')">
+        Show Answer
+    </button>
+
+    <p><strong>4. What is sustainable development?</strong></p>
+    <button onclick="alert('Answer: Development that meets present needs without harming future generations.')">
+        Show Answer
+    </button>
+
+</div>
+
+<script>
+    function showEconomics() {
+        document.getElementById("economics-content").style.display = "block";
+    }
+</script>
+
+<script>
+    function showSST() {
+        document.getElementById("sst-content").style.display = "block";
+    }
+</script>
+    <button onclick="showEnglish()">📖 English</button><div id="english-content">
+
+    <h2>📖 English</h2>
+
+    <p>Choose a topic to start learning:</p>
+
+    <button onclick="showGrammar()">📝 Grammar</button><div id="grammar-content">
+
+    <h2>📝 English Grammar</h2>
+
+    <h3>🔤 Parts of Speech</h3>
+    <p>
+        Parts of Speech are the different categories of words according
+        to their function in a sentence.
+    </p>
+
+    <ul>
+        <li>📌 Noun – Name of a person, place, animal or thing.</li>
+        <li>📌 Pronoun – Used in place of a noun.</li>
+        <li>📌 Verb – Shows an action or state.</li>
+        <li>📌 Adjective – Describes a noun or pronoun.</li>
+        <li>📌 Adverb – Describes a verb, adjective or another adverb.</li>
+        <li>📌 Preposition – Shows relationship between words.</li>
+        <li>📌 Conjunction – Joins words or sentences.</li>
+        <li>📌 Interjection – Expresses sudden feelings.</li>
+    </ul>
+
+    <h3>🧠 Mini Quiz</h3>
+
+    <p>Which word is a verb in this sentence?</p>
+    <p><strong>“The boy runs fast.”</strong></p>
+
+    <button onclick="alert('Correct Answer: Runs 🎉')">
+        Show Answer
+    </button>
+
+</div>
+
+<script>
+function showGrammar() {
+    document.getElementById("grammar-content").style.display = "block";
+}
+</script>
+    <button onclick="showLiterature()">📚 Literature</button><div id="literature-content">
+
+    <<button onclick="showLiterature()">📚 Literature</button><div id="literature-content">
+
+    <h2>📚 English Literature</h2>
+
+    <button onclick="showWinds()">🌬️ Winds of Change</button>
+
+    <button onclick="showCanvas()">🎨 Canvas of Soil</button>
+
+</div><div id="winds-content">
+
+    <h2>🌬️ Winds of Change</h2>
+
+    <h3>📖 Summary</h3>
+
+    <p>
+        “Winds of Change” explores the traditional Indian hand fan called
+        the pankha and its connection with Indian culture, craftsmanship
+        and changing times. The chapter shows how an ordinary traditional
+        object can carry cultural and historical importance.
+    </p>
+
+    <p>
+        The chapter also reminds us that modern technology and changing
+        lifestyles can affect traditional crafts. It encourages us to
+        value our cultural heritage and preserve traditional skills.
+    </p>
+
+    <h3>📝 Extract</h3>
+
+    <p>
+        The traditional pankha was not merely used to create air. It was
+        also a product of skilled craftsmanship and an important part of
+        India's cultural heritage.
+    </p>
+
+    <p><strong>Question: What does the pankha represent besides its practical use?</strong></p>
+
+    <button onclick="alert('Answer: It represents skilled craftsmanship and India’s cultural heritage.')">
+        Show Answer
+    </button>
+
+    <h3>🧠 Mini Test</h3>
+
+    <p>1. What is the main idea of the chapter?</p>
+
+    <button onclick="alert('Answer: The cultural importance of the traditional pankha and the changes affecting traditional crafts.')">
+        Show Answer
+    </button>
+
+    <p>2. Why should traditional crafts be preserved?</p>
+
+    <button onclick="alert('Answer: They preserve cultural heritage and traditional skills.')">
+        Show Answer
+    </button>
+
+</div>
+
+
+<div id="canvas-content">
+
+    <h2>🎨 Canvas of Soil</h2>
+
+    <h3>📖 Summary</h3>
+
+    <p>
+        “Canvas of Soil” presents soil and gardening as a form of art.
+        The chapter shows how nature, plants and the soil can become a
+        creative canvas through which beauty and life are expressed.
+    </p>
+
+    <p>
+        The chapter highlights the relationship between humans and nature.
+        It teaches us to observe, respect and appreciate the beauty of the
+        natural world.
+    </p>
+
+    <h3>📝 Extract</h3>
+
+    <p>
+        The soil becomes a canvas on which nature creates its own beautiful
+        picture through plants, colours and life.
+    </p>
+
+    <p><strong>Question: Why is soil compared to a canvas?</strong></p>
+
+    <button onclick="alert('Answer: Soil is compared to a canvas because plants and nature create beauty on it like an artist creates a picture on a canvas.')">
+        Show Answer
+    </button>
+
+    <h3>🧠 Mini Test</h3>
+
+    <p>1. What is the central idea of the chapter?</p>
+
+    <button onclick="alert('Answer: The chapter shows the beauty of nature and the creative relationship between soil, plants and humans.')">
+        Show Answer
+    </button>
+
+    <p>2. What does the chapter teach us?</p>
+
+    <button onclick="alert('Answer: It teaches us to appreciate and respect nature.')">
+        Show Answer
+    </button><script>
+
+function showLiterature() {
+    document.getElementById("literature-content").style.display = "block";
+}
+
+function showWinds() {
+    document.getElementById("winds-content").style.display = "block";
+}
+
+function showCanvas() {
+    document.getElementById("canvas-content").style.display = "block";
+}
+
+</script>
+
+</script>
+    <button onclick="showHindi()">🇮🇳 Hindi</button><div id="hindi-content">
+
+    <h2>🇮🇳 हिंदी</h2>
+
+    <p>Choose a section to start learning:</p>
+
+    <button onclick="showGadyansh()">📖 गद्यांश</button>
+
+    <button onclick="showHindiGrammar()">📝 व्याकरण</button>
+
+</div><div id="gadyansh-content">
+
+    <h2>📖 गद्यांश</h2>
+
+    <p>
+        एक अच्छा विद्यार्थी अपने समय का सदुपयोग करता है। वह नियमित रूप से
+        पढ़ाई करता है और अपने लक्ष्य को प्राप्त करने के लिए मेहनत करता है।
+        समय का सही उपयोग जीवन में सफलता प्राप्त करने में बहुत सहायक होता है।
+    </p>
+
+    <h3>📝 प्रश्न</h3>
+
+    <p><strong>1. अच्छा विद्यार्थी किसका सदुपयोग करता है?</strong></p>
+
+    <button onclick="alert('उत्तर: अच्छा विद्यार्थी अपने समय का सदुपयोग करता है।')">
+        उत्तर देखें
+    </button>
+
+    <p><strong>2. विद्यार्थी सफलता कैसे प्राप्त कर सकता है?</strong></p>
+
+    <button onclick="alert('उत्तर: नियमित पढ़ाई और मेहनत करके।')">
+        उत्तर देखें
+    </button>
+
+    <h3>🧠 छोटा टेस्ट</h3>
+
+    <p><strong>समय का सही उपयोग किसमें सहायक होता है?</strong></p>
+
+    <button onclick="alert('सही उत्तर: जीवन में सफलता प्राप्त करने में। 🎉')">
+        उत्तर देखें
+    </button>
+
+</div>
+
+
+<div id="hindi-grammar-content">
+
+    <h2>📝 हिंदी व्याकरण</h2>
+
+    <h3>🔤 संज्ञा</h3>
+    <p>
+        किसी व्यक्ति, वस्तु, स्थान या भाव के नाम को संज्ञा कहते हैं।
+    </p>
+
+    <h3>👤 सर्वनाम</h3>
+    <p>
+        संज्ञा के स्थान पर प्रयोग किए जाने वाले शब्दों को सर्वनाम कहते हैं।
+    </p>
+
+    <h3>⚡ क्रिया</h3>
+    <p>
+        जिस शब्द से किसी कार्य के करने या होने का बोध हो, उसे क्रिया कहते हैं।
+    </p>
+
+    <h3>🎨 विशेषण</h3>
+    <p>
+        जो शब्द संज्ञा या सर्वनाम की विशेषता बताते हैं, उन्हें विशेषण कहते हैं।
+    </p>
+
+    <h3>⏳ काल</h3>
+    <p>
+        क्रिया के जिस रूप से कार्य के समय का पता चलता है, उसे काल कहते हैं।
+        काल के मुख्य तीन भेद हैं—वर्तमान काल, भूतकाल और भविष्यत् काल।
+    </p>
+
+    <h3>🧠 छोटा टेस्ट</h3>
+
+    <p><strong>1. “राम स्कूल जाता है।” इसमें क्रिया कौन-सी है?</strong></p>
+
+    <button onclick="alert('सही उत्तर: जाता है 🎉')">
+        उत्तर देखें
+    </button>
+
+    <p><strong>2. “सुंदर फूल” में विशेषण कौन-सा है?</strong></p>
+
+    <button onclick="alert('सही उत्तर: सुंदर 🎉')">
+        उत्तर देखें
+    </button>
+
+</div><script>
+
+function showHindi() {
+    document.getElementById("hindi-content").style.display = "block";
+}
+
+function showGadyansh() {
+    document.getElementById("gadyansh-content").style.display = "block";
+}
+
+function showHindiGrammar() {
+    document.getElementById("hindi-grammar-content").style.display = "block";
+}
+
+</script>
+    <button onclick="showIT()">💻 IT</button><div id="it-content">
+
+    <h2>💻 Information Technology</h2>
+
+    <button onclick="showCommunication()">📡 Communication</button>
+
+</div><div id="communication-content">
+
+    <h2>📡 Communication</h2>
+
+    <h3>1️⃣ What is Communication?</h3>
+    <p>
+        Communication is the process of sharing information, ideas,
+        thoughts and feelings between two or more people.
+    </p>
+
+    <h3>2️⃣ What is a Sender?</h3>
+    <p>
+        The sender is the person who creates and sends the message.
+    </p>
+
+    <h3>3️⃣ What is a Receiver?</h3>
+    <p>
+        The receiver is the person who receives and understands the message.
+    </p>
+
+    <h3>4️⃣ What is a Message?</h3>
+    <p>
+        A message is the information, idea or thought that is communicated
+        from the sender to the receiver.
+    </p>
+
+    <h3>5️⃣ What is Verbal Communication?</h3>
+    <p>
+        Verbal communication uses spoken or written words to share
+        information and ideas.
+    </p>
+
+    <h3>6️⃣ What is Non-Verbal Communication?</h3>
+    <p>
+        Non-verbal communication takes place without using words.
+        Facial expressions, gestures and body language are examples.
+    </p>
+
+    <h3>7️⃣ What is Feedback?</h3>
+    <p>
+        Feedback is the response given by the receiver after receiving
+        and understanding a message.
+    </p>
+
+    <h3>8️⃣ What is the Communication Cycle?</h3>
+    <p>
+        The communication cycle includes the sender, message, medium,
+        receiver and feedback.
+    </p>
+
+    <h3>9️⃣ What are Communication Barriers?</h3>
+    <p>
+        Communication barriers are problems that prevent a message from
+        being properly understood. Language problems, noise and poor
+        listening are common barriers.
+    </p>
+
+    <h3>🔟 Why is Effective Communication Important?</h3>
+    <p>
+        Effective communication helps people share ideas clearly,
+        understand one another and avoid misunderstandings.
+    </p>
+
+    <h2>🧠 MCQ Test – Communication</h2>
+
+    <p><strong>1. Who sends the message?</strong></p>
+
+    <button onclick="alert('Correct Answer: Sender 🎉')">
+        Show Answer
+    </button>
+
+    <p><strong>2. Which of the following is an example of non-verbal communication?</strong></p>
+
+    <button onclick="alert('Correct Answer: Facial expressions 🎉')">
+        Show Answer
+    </button>
+
+    <p><strong>3. What is the response of the receiver called?</strong></p>
+
+    <button onclick="alert('Correct Answer: Feedback 🎉')">
+        Show Answer
+    </button>
+
+    <p><strong>4. Which of these can be a communication barrier?</strong></p>
+
+    <button onclick="alert('Correct Answer: Noise 🎉')">
+        Show Answer
+    </button>
+
+    <p><strong>5. What is the main purpose of communication?</strong></p>
+
+    <button onclick="alert('Correct Answer: To share information and ideas clearly 🎉')">
+        Show Answer
+    </button>
+
+</div><script>
+
+function showIT() {
+    document.getElementById("it-content").style.display = "block";
+}
+
+function showCommunication() {
+    document.getElementById("communication-content").style.display = "block";
+}
+
+</script>
+</div>
+
+<script>
+    function showSubjects() {
+        document.getElementById("subjects").style.display = "block";
+    }
+</script>
+
+</body>
+</html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>9Grade Study Hub</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
